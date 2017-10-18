@@ -19,7 +19,7 @@ import java.util.Optional;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/cities")
-public class WeatherController {
+public class LocationController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Value("${weather.api.id}")
